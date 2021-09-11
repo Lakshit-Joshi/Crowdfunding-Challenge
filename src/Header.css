@@ -1,0 +1,32 @@
+.header {
+    margin: 0 1%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    top: 0;
+}
+
+.header-menu {
+    width: 15%;
+    display: flex;
+    margin-right: 10%;
+    justify-content: space-between;
+}
+
+.hamburger {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .header-menu {
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+        margin-right: 10%;
+    }
+  }

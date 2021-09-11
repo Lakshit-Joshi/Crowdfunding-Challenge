@@ -1,0 +1,51 @@
+.pledgecard {
+    padding: 5%;
+}
+
+.pledgecard-element {
+    margin: 10% 0;
+    padding: 3%;
+    border: 1px solid black;
+    border-radius: 10px;
+    position: relative;
+}
+
+.pledgecard-element > h1, .pledgecard-element > h3, .pledgecard-element > h4, .pledgecard-element > button {
+    margin: 5%;
+} 
+
+.pledgecard-element > h3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.pledgecard-element > h4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: hsl(176, 50%, 47%);
+}
+
+.pledgecard-element > p {
+    position: relative;
+    margin: 10% 0;
+    padding: 5%;
+}
+
+.pledgecard-element > h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.pledgecard-element > button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.small {
+    font-size: small;
+    color: hsl(0, 0%, 69%);
+}
